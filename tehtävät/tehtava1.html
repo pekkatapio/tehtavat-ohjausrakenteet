@@ -1,0 +1,29 @@
+<!doctype html>
+
+<html lang="fi">
+<head>
+  <meta charset="utf-8">
+  <title>tehtävä 1 - for-silmukka</title>
+</head>
+
+<body>
+  <h4>Tehtävä 1 - for-silmukka</h4>
+
+  <div id="tulos"></div>
+
+  <script>
+    var kerrat = 1;
+    var nro = 20;
+
+    // Mitä seuraavassa silmukassa tapahtuu?
+    // Miksi se tulostaa luvut 11 3 5 7 9 11 13 15 17 19?
+    // Korjaa koodia tulostamaan luvut 1 2 3 4 5 6 7 8 9 10 11
+    for(var i=0; i < nro; i++) {
+      kerrat += ++i + " ";
+    } // Silmukka loppuu
+
+    document.getElementById("tulos").innerHTML= kerrat;
+
+  </script>
+</body>
+</html>

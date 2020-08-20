@@ -1,10 +1,10 @@
 {
-  "name": "tehtavapohja",
+  "name": "tehtavat",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "tehtava1.html",
   "scripts": {
-    "test": "jest"
+    "test": "testcafe chrome:headless tehtävät/tests/"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/pekkatapio/tehtavapohja#readme",
   "devDependencies": {
-    "jest": "^26.2.2"
+    "testcafe": "^1.9.1"
   }
 }

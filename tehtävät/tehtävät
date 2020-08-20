@@ -1,1 +1,9 @@
-Tämä kansio sisältää suoritettavat tehtävät.
+Tämä kansio sisältää seuraavat tehtävät:
+ - tehtävä 1 - for-silmukka
+ - tehtävä 2 - ehtorakenne
+
+Voit testata kirjoittamiasi koodeja seuraavasti:
+ 1. asenna testiympäristön tarvitsemat paketit komennolla:
+      npm install
+ 2. suorita testit komennolla:
+      npm test
