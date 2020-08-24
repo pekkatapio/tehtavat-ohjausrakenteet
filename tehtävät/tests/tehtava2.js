@@ -19,7 +19,7 @@ test('Luku kymmenkertaistuu', async t => {
      .expect(tulos.textContent).eql(tulosluku);
 });
 
-test('Luku puolittuu', async t => {
+test('Luku tuplaantuu', async t => {
    const kentta = Selector("#kentta");
    const nappi = Selector("#nappi");
    const syote = Selector("#syote");
